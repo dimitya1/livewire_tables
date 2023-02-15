@@ -4,7 +4,9 @@
 @endsection
 
 @section('content')
-    <h1>CONTENT</h1>
+    <h1 class="text-3xl font-bold underline bg-blue-600">
+        Hello world!
+    </h1>
 @endsection
 
 @push('scripts')
