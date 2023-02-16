@@ -1,3 +1,24 @@
 @tailwind base;
 @tailwind components;
+
+table {
+    @apply min-w-full
+}
+
+thead {
+    @apply text-sm font-medium text-gray-900 px-6 py-4 text-left
+}
+
+thead tr th {
+    @apply text-sm font-medium text-gray-900 px-6 py-4 text-left
+}
+
+tbody tr {
+    @apply bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100
+}
+
+tbody tr td {
+    @apply text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap
+}
+
 @tailwind utilities;
