@@ -1,3 +1,3 @@
-<footer>
-    <h1>HEADER</h1>
-</footer>
+<header>
+    <p class="text-center">{{ config('app.name') }}</p>
+</header>

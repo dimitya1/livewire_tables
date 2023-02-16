@@ -1,3 +1,3 @@
 <footer>
-    <h1>FOOTER</h1>
+    <p class="text-center">{{ now()->year }}</p>
 </footer>
