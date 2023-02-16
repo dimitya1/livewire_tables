@@ -10,7 +10,6 @@
 
     <title>{{ isset($pageTitle) ? ($pageTitle . ' | ' . config('app.name')) : config('app.name') }}</title>
 
-    <!-- livewire styles -->
     @livewireStyles
 
     @yield('styles')
@@ -19,11 +18,12 @@
 
 @include('layouts.header')
 
+{{ $slot }}
+
 @yield('content')
 
 @include('layouts.footer')
 
-<!-- livewire scripts -->
 @livewireScripts
 
 @stack('scripts')
